@@ -105,7 +105,7 @@ const Index = ({ setSearch }) => {
           </div>
         </div>
 
-        <Badge count={card.cardItems.length} className="md:hidden flex">
+        <Badge count={totalItems} className="md:hidden flex">
           <Link
             to="/card"
             href="menu-link"
